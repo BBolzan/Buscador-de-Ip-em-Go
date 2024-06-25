@@ -1,6 +1,15 @@
-# Buscador de Ip em Go
-Projeto pela linha de comando feito para treinar go. Nele podemos buscar o IP e o Name server de um site passando o parametro pela linha de comando
+# Buscador de IP em Go
 
-para usar digite "./linha-de-comando.exe" por linha de comando + "ip --host (URL do site)" ou "servidores --host (URL do site)"
+Este é um projeto de linha de comando desenvolvido para treinar Go. A aplicação permite buscar o IP e o Name Server de um site, passando o parâmetro pela linha de comando.
 
-exemplo: ./linha-de-comando.exe ip --host google.com.br
+## Funcionalidades
+
+- Buscar o IP de um site.
+- Buscar o Name Server de um site.
+
+## Como Usar
+
+Para utilizar a aplicação, digite o comando a seguir no terminal:
+
+```bash
+./linha-de-comando.exe <comando> --host <URL do site>
